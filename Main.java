@@ -1,12 +1,6 @@
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] A = new int[] { 2, 5, 8, 4, 3, 10, 12, 13, 11, 6, 7, 1, 9 };
-        System.out.println(Arrays.toString(A));
-        PeekSort.peeksort(A, 0, A.length - 1);
-        System.out.println(Arrays.toString(A));
-
         int[] sizes = { 1000, 10000, 100000 };
         String[] statuses = { "sorted", "random", "reversed" };
 
